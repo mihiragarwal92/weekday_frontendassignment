@@ -1,0 +1,63 @@
+.jobDetails {
+  display: flex;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.jobDetails .details {
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+}
+
+.companyName {
+  color: #8b8b8b;
+  font-weight: bold;
+  margin-bottom: 3px;
+  font-size: 15px;
+  border-radius: 35px;
+}
+
+.jobLocation {
+  margin-top: 5px;
+  font-size: 13px;
+  border-radius: 35px;
+}
+
+.companyDetails {
+  display: flex;
+  flex-direction: column;
+  max-height: 320px;
+  background: linear-gradient(transparent 150px, white);
+  overflow: hidden;
+  position: relative;
+  border-radius: 35px;
+}
+
+.companyDetails:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(transparent 150px, white);
+  border-radius: 35px;
+}
+
+.companyDetails .showMore {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #1c15db;
+  cursor: pointer;
+  border-radius: 50px;
+  
+}
+
+.experienceDetails {
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+}
